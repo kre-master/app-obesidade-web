@@ -1,0 +1,1 @@
+import{l as e,o as t}from"./dates-BDtvA22b.js";function n(n,r=e()){let i=n?.age_years,a=n?.age_recorded_on;if(!t(r))return null;if(!Number.isInteger(i)||!a||!t(a))return i??null;let[o,s,c]=a.split(`-`).map(Number),[l,u,d]=r.split(`-`).map(Number),f=l-o;return(u<s||u===s&&d<c)&&f--,Math.max(1,i+f)}export{n as t};
