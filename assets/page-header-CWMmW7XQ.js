@@ -1,1 +1,0 @@
-import{a as e}from"./index-DOzb5EjM.js";function t({eyebrow:t,title:n,description:r,actions:i=[]}){return e(`header`,{className:`page-header`},e(`div`,{className:`page-header__copy`},t?e(`span`,{className:`page-header__eyebrow`,text:t}):null,e(`h1`,{text:n}),r?e(`p`,{text:r}):null),i.length?e(`div`,{className:`page-header__actions`},i):null)}export{t};
